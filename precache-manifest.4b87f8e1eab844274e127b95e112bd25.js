@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "991279c00d9d0e7ece30f507466b3980",
+    "revision": "a397aef0f2b211851e8b3bb221c4437a",
     "url": "://arghadev.github.io/myfirtsite/index.html"
   },
   {
-    "revision": "564d93567bd5f72c1886",
+    "revision": "0426c1f607e90869705e",
     "url": "://arghadev.github.io/myfirtsite/static/css/2.6b514457.chunk.css"
   },
   {
-    "revision": "d4807aa9cb345381ecc2",
-    "url": "://arghadev.github.io/myfirtsite/static/css/main.08a07bfa.chunk.css"
+    "revision": "b809040e1de667f99f85",
+    "url": "://arghadev.github.io/myfirtsite/static/css/main.fd20e02d.chunk.css"
   },
   {
-    "revision": "564d93567bd5f72c1886",
-    "url": "://arghadev.github.io/myfirtsite/static/js/2.ac98c43c.chunk.js"
+    "revision": "0426c1f607e90869705e",
+    "url": "://arghadev.github.io/myfirtsite/static/js/2.b23d50a3.chunk.js"
   },
   {
     "revision": "05ee83b05f52a0fafc26cfb45bc676ef",
-    "url": "://arghadev.github.io/myfirtsite/static/js/2.ac98c43c.chunk.js.LICENSE"
+    "url": "://arghadev.github.io/myfirtsite/static/js/2.b23d50a3.chunk.js.LICENSE"
   },
   {
-    "revision": "d4807aa9cb345381ecc2",
-    "url": "://arghadev.github.io/myfirtsite/static/js/main.fce20e02.chunk.js"
+    "revision": "b809040e1de667f99f85",
+    "url": "://arghadev.github.io/myfirtsite/static/js/main.b13e90ca.chunk.js"
   },
   {
     "revision": "e2cde98c0a21b3b9fd9d",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cf1694ee3b5536199533237fe3e1c866",
     "url": "://arghadev.github.io/myfirtsite/static/media/person-icon.cf1694ee.png"
+  },
+  {
+    "revision": "82fe426a55b929ff0007777b92b6cbe0",
+    "url": "://arghadev.github.io/myfirtsite/static/media/steve-halama.82fe426a.jpg"
   }
 ]);
