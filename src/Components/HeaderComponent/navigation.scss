@@ -1,0 +1,86 @@
+/** Style Variables **/
+$primaryColor: darkorange;
+
+.site-header .header-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.site-brand{
+    max-width: 140px;
+}
+.mainMenu {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+
+        li {
+            padding: 0 10px;
+            a {
+                position: relative;
+                padding-bottom: 5px;
+                transition: 0.5s ease-in-out;
+
+                &:hover{
+                    color: $primaryColor;
+                }
+
+                &::after{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    width: 0;
+                    height: 2px;
+                    background-color: $primaryColor;
+                    transition: 0.3s ease-in-out;
+                    bottom: 0;
+                }
+                
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Banner */
+.banner-content{
+    background: url(../../Assets/demo-banner.jpg) no-repeat center center;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    
+    h1{
+        text-transform: uppercase;
+        color: #ffffff;
+        position: relative;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 15px;
+    }
+    h4{
+        color: #ffffff;
+        position: relative;
+        z-index: 1;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+}
+.banner-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 0;
+}
